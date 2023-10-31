@@ -7,7 +7,10 @@
 radius = 5.0
 
 [node name="Player" type="CharacterBody2D" groups=["player"]]
+collision_layer = 0
 script = ExtResource("1_ra31t")
+
+[node name="AbilityManager" type="Node" parent="."]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_ty772")
