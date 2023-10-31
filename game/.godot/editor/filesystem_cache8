@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1698711183
+::res://::1698778612
 icon.svg::CompressedTexture2D::2686163954009912962::1698645538::1698646061::1::::<><>::
 ::res://assets/::1698697852
 ::res://assets/environment/::1698697867
@@ -7,10 +7,13 @@ tilemap_packed.png::CompressedTexture2D::6720804652865747174::1698697827::169869
 ::res://resources/::1698708301
 tileset.tres::TileSet::1679057969111317087::1698708301::0::1::::<><>::uid://c20uw2lvb4oru::::res://assets/environment/tilemap_packed.png
 ::res://scenes/::1698711167
-::res://scenes/ability/::1698711173
-::res://scenes/ability/sword_ability/::1698711183
+::res://scenes/ability/::1698711571
+::res://scenes/ability/sword_ability/::1698711494
 sword.png::CompressedTexture2D::1950408207487905486::1657054866::1698711184::1::::<><>::
-sword_ability.tscn::PackedScene::7978364673912514304::1698711175::0::1::::<><>::
+sword_ability.tscn::PackedScene::7978364673912514304::1698711494::0::1::::<><>::uid://21165t08sopy::::res://scenes/ability/sword_ability/sword.png
+::res://scenes/ability/sword_ability_controller/::1698731749
+sword_ability_controller.gd::GDScript::-1::1698711698::0::1::::<>Node<>::
+sword_ability_controller.tscn::PackedScene::340276555976921992::1698731749::0::1::::<><>::res://scenes/ability/sword_ability_controller/sword_ability_controller.gd<>uid://dlw1rauwqetka::::res://scenes/ability/sword_ability/sword_ability.tscn
 ::res://scenes/basic_enemy/::1698709894
 basic_enemy.gd::GDScript::-1::1698709617::0::1::::<>CharacterBody2D<>::
 basic_enemy.png::CompressedTexture2D::5419099943846570210::1698709077::1698709084::1::::<><>::
@@ -20,7 +23,7 @@ game_camera.gd::GDScript::-1::1698708483::0::1::::<>Camera2D<>::
 game_camera.tscn::PackedScene::7216565620865971991::1698709893::0::1::::<><>::res://scenes/game_camera/game_camera.gd
 ::res://scenes/main/::1698709893
 main.tscn::PackedScene::1010195704518383842::1698709893::0::1::::<><>::uid://da201tlawl3qp::::res://scenes/game_camera/game_camera.tscn<>uid://x6l3sni8pqn4::::res://resources/tileset.tres<>uid://cw5b4yw0bvojx::::res://scenes/player/player.tscn<>uid://by746q1vewypk::::res://scenes/basic_enemy/basic_enemy.tscn
-::res://scenes/player/::1698709894
+::res://scenes/player/::1698711535
 player.gd::GDScript::-1::1698648950::0::1::::<>CharacterBody2D<>::
 player.png::CompressedTexture2D::6848035081288587797::1698645538::1698646061::1::::<><>::
-player.tscn::PackedScene::6379041060744880729::1698709894::0::1::::<><>::res://scenes/player/player.gd<>uid://c4tiewxubh5en::::res://scenes/player/player.png
+player.tscn::PackedScene::6379041060744880729::1698711535::0::1::::<><>::res://scenes/player/player.gd<>uid://c4tiewxubh5en::::res://scenes/player/player.png
