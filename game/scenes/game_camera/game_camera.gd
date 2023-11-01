@@ -1,7 +1,7 @@
 extends Camera2D
 
 var target_position = Vector2.ZERO
-const SMOOTH_VALUE = 10
+const SMOOTH_VALUE = 20
 
 
 # Called when the node enters the scene tree for the first time.
